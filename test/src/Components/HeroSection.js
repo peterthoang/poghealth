@@ -8,14 +8,14 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <video source src={vid} autoPlay loop muted />
-      <h1>Welcome to POGHEALTH</h1>
+      <h1>Welcome to POGHealth!</h1>
       <div className="hero-btns">
         <Button
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
         >
-          GET STARTED
+          Click Here to Get Started
         </Button>
       </div>
     </div>
