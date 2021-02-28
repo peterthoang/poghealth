@@ -1,57 +1,62 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #274e9c;
-  min-height: 100vh;
+.home,
+.food,
+.exercise,
+.tracker .profile .sign-in {
   display: flex;
-  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(204, 27, 27);
+  font-size: 3rem;
 }
 
-header {
-  position: absolute;
-  width: 1920px;
-  height: 129px;
-  left: 0px;
-  top: 0px;
-  background: #000000;
+.food {
+  background-image: url("./images/foodimage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
-body {
-  background: linear-gradient(180deg, rgba(0, 163, 255, 0.13) 15.62%, #00A3FF 200%);
-  mix-blend-mode: normal;
-  opacity: 1;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  width: 1920px;
-  height: 951px;
+.exercise {
+  background-image: url("./images/foodimage.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
-.App-link {
-  color: #61dafb;
+.tracker {
+  background-image: url("./images/foodimage.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile {
+  background-image: url("./images/foodimage.jpg");
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-in {
+  background-image: url("./images/foodimage.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
 }
