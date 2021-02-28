@@ -1,3 +1,3 @@
 module.exports = {
-    mongoURI: process.env.MONGO_URI
+    mongoURI: 'mongodb+srv://peter:peter123@poghealthdb.w3yyr.mongodb.net/poghealthdb?retryWrites=true&w=majority'
 }
